@@ -1,0 +1,38 @@
+# Log files
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Compiled Python files
+*.pot
+*.pyc
+*.py[cod]
+*$py.class
+
+# Python cache
+__pycache__/
+*.DS_Store
+**/__pycache__
+**/.DS_Store
+
+# IPython/Jupyter Notebook
+.ipynb_checkpoints
+
+# Python virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Migrations
+**/migrations
+
+# Miscellaneous
+.history
+celerybeat-schedule.*
+.mypy_cache/
+*.bak
